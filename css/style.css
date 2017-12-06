@@ -17,6 +17,7 @@ main .container{
 }
 .top-menu form {
     position: relative;
+    padding-top: 50px;
 }
 .top-menu input {
     width: 250px;
@@ -74,9 +75,6 @@ li {
 .logo span {
     font-size: 16px;
     font-weight: normal;
-}
-.top-menu form {
-    padding-top: 50px;
 }
 .about {
     margin: 30px 40px 0 400px;
@@ -145,7 +143,8 @@ img {
         flex-direction: column;
     }
     .navigation li {
-        padding: 15px 0;
+        padding: 5% 10%;
+        border-bottom: 1px solid #016D8A;
     }
     .top-menu {
         display: flex;
@@ -156,6 +155,9 @@ img {
     }
     .logo img {
         display: none;
+    }
+    .logo h1 {
+        margin: 5px auto;
     }
     .company p {
         display: block;
@@ -170,5 +172,13 @@ img {
     .img {
         padding: 0;
         zoom: 60%
+    }
+    .top-menu form {
+        padding-top: 0;
+    }
+    .top-menu button {
+        position: absolute;
+        top: 6px;
+        left: 215px;
     }
 }
