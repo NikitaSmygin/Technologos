@@ -131,8 +131,8 @@ footer {
 }
 img {
     max-width: 100%;
- }
- @media screen and (max-width:800px) {
+}
+@media screen and (max-width:800px) {
     .container {
         width: 90%;
     }
