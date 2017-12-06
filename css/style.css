@@ -1,5 +1,5 @@
 body {
-    font-family: 'PTSans', "Roboto", "San Francisco", Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', 'PTSans', "Roboto", "San Francisco", Arial, Helvetica, sans-serif;
     margin: 0 auto;
 }
 .container {
@@ -44,8 +44,8 @@ main .container{
     height: 55px;
 }
 .navigation a {
-    padding: 19px 5px;
     text-transform: uppercase;
+    padding: 19px 25px;
 }
 .navigation a:hover {
     background: #18b7e2;
@@ -66,8 +66,8 @@ li {
     list-style-type: none;
 }
 .navigation li {
-    padding: 20px 0;
-    color: #ffffff
+    color: #ffffff;
+    display: flex;
 }
 .logo {
     display: flex;
@@ -141,6 +141,9 @@ img {
     .about {
         margin: 15px 0 15px 150px;
     }
+    .navigation a {
+        padding: 18px 7px;
+    }
 }
 @media screen and (min-width:950px) and (max-width:1100px) {
     .navigation li {
@@ -149,7 +152,7 @@ img {
         align-items: center;
     }
     .navigation a {
-        padding: 20px 0;
+        padding: 19px 5px;
         font-size: 14px;
     }
     .about {
