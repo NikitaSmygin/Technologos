@@ -137,14 +137,8 @@ img {
     .container {
         width: 100%;
     }
-    p {
-        width: 95%;
-    }
-    h1,h2,h3 {
-        width: 95%;
-    }
     main {
-        margin: 0 5%;
+        margin: 0 10px;
     }
     footer {
         margin-top: 5px;
@@ -216,10 +210,13 @@ img {
     .top-menu form {
         padding: 10px 0;
     }
+    .top-menu input {
+        width: 90%;
+    }
     .top-menu button {
         position: absolute;
         top: 16px;
-        left: 215px;
+        left: 80%;
     }
     .container h2{
         margin-top: 5px;
