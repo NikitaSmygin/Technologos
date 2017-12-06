@@ -129,3 +129,46 @@ footer {
     padding: 10px 0 10px 0;
     background: #f3f3f3;
 }
+img {
+    max-width: 100%;
+ }
+ @media screen and (max-width:800px) {
+    .container {
+        width: 90%;
+    }
+    .navigation {
+        display: flex;
+        height: 100%;
+    }
+    .navigation ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .navigation li {
+        padding: 15px 0;
+    }
+    .top-menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .about {
+        margin: 0;
+    }
+    .logo img {
+        display: none;
+    }
+    .company p {
+        display: block;
+    }
+    .section {
+        display: block;
+    }
+    .production {
+        margin: 0;
+        width: 100%;
+    }
+    .img {
+        padding: 0;
+        zoom: 60%
+    }
+}
