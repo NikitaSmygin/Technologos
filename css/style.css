@@ -71,6 +71,7 @@ li {
 }
 .logo {
     display: flex;
+    align-items: center;
 }
 .logo span {
     font-size: 16px;
@@ -133,7 +134,29 @@ img {
 .mini-logo {
     display: none;
 }
-@media screen and (max-width:800px) {
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+    .container {
+        width: 90%;
+    }
+    .about {
+        margin: 15px 0 15px 150px;
+    }
+}
+@media screen and (min-width:950px) and (max-width:1100px) {
+    .navigation li {
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+    .navigation a {
+        padding: 20px 0;
+        font-size: 14px;
+    }
+    .about {
+        margin: 10px 0 10px 30px;
+    }
+}
+@media screen and (max-width:960px) {
     .container {
         width: 100%;
     }
@@ -193,9 +216,13 @@ img {
     .logo {
         display: flex;
         flex-direction: column;
+        align-items: baseline;
     }
     .logo h1 {
         margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        line-height: 15px;
     }
     .company p {
         display: block;
@@ -208,6 +235,7 @@ img {
         margin: 5px 0 0 0 ;
     }
     .top-menu form {
+        margin-top: 10px;
         padding: 10px 0;
     }
     .top-menu input {
