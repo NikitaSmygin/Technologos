@@ -137,8 +137,17 @@ img {
     .container {
         width: 100%;
     }
+    p {
+        width: 95%;
+    }
+    h1,h2,h3 {
+        width: 95%;
+    }
     main {
         margin: 0 5%;
+    }
+    footer {
+        margin-top: 5px;
     }
     footer .container {
         width: 80%;
@@ -201,6 +210,9 @@ img {
         margin: 0;
         width: 100%;
     }
+    .section h3 {
+        margin: 5px 0 0 0 ;
+    }
     .top-menu form {
         padding: 10px 0;
     }
@@ -209,5 +221,7 @@ img {
         top: 16px;
         left: 215px;
     }
-
+    .container h2{
+        margin-top: 5px;
+    }
 }
