@@ -3,7 +3,7 @@ body {
     margin: 0 auto;
 }
 .container {
-    width: 70%;
+    width: 942px;
     margin: 0 auto;
 }
 main .container{
@@ -66,16 +66,25 @@ main .container{
     display: flex;
     align-items: center;
     white-space: nowrap;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 0 10px; 
+    font-size: 15px;
 }
 .navigation a:hover {
     background: #18b7e2;
     text-decoration: underline; 
     cursor: pointer;
+    color: #ffffff; 
 }
 .navigation a:active {
     background: #1d9bbd;
     text-decoration: underline;
-    cursor: pointer; 
+    cursor: pointer;
+    color: #ffffff; 
+}
+.active {
+    background: #1d9bbd;
 }
 .navigation ul {
     display: flex;
@@ -86,7 +95,6 @@ li {
     list-style-type: none;
 }
 .navigation li {
-    color: #ffffff;
     display: flex;
 }
 .logo {
@@ -154,26 +162,23 @@ img {
 .mini-logo {
     display: none;
 }
-@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
     .container {
-        width: 90%;
+        width: 960px;
     }
     .about {
         margin: 15px 0 15px 150px;
     }
-    .navigation a {
-        padding: 18px 7px;
-    }
 }
-@media screen and (min-width:950px) and (max-width:1100px) {
+@media screen and (min-width:950px) and (max-width:1200px) {
     .navigation li {
         padding: 0;
         display: flex;
         align-items: center;
     }
     .navigation a {
-        padding: 19px 5px;
         font-size: 14px;
+        padding: 0 15px;
     }
     .about {
         margin: 10px 0 10px 30px;
@@ -277,4 +282,26 @@ img {
         padding: 15px;
         font-size: 18px;
     }
+}
+.sphere {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: space-between;
+    height: 510px;
+}
+.sphere figure {
+    margin: 15px 5% 0;
+}
+.sphere a{
+    width: 301px;
+    height: 235px;
+    background: #f3f3f3;
+    color: #292929;
+    text-decoration: none;
+    font-size: 15px;
+}
+.sphere h4 {
+    margin: 20px 0 0 0;
 }
