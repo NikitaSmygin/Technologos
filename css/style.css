@@ -190,7 +190,7 @@ img {
     }
     main {
         margin: 0 10px;
-    }
+   }
     footer {
         margin-top: 5px;
     }
@@ -198,8 +198,8 @@ img {
         width: 80%;
     }
     .section {
+        margin-top: 5px;
         flex-direction: column;
-        padding-top: 5px;
     }
     .navigation {
         display: flex;
@@ -288,8 +288,6 @@ img {
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
-    align-items: space-between;
-    height: 510px;
 }
 .sphere figure {
     margin: 15px 5% 0;
@@ -301,7 +299,56 @@ img {
     color: #292929;
     text-decoration: none;
     font-size: 15px;
+    margin-bottom: 18px;
 }
 .sphere h4 {
-    margin: 20px 0 0 0;
+    margin: 26px 0px 0;
+    text-align: center;   
+}
+.news {
+    width: 33%;
+    margin-left: 20px;
+}
+.news h3 {
+    padding: 0;
+}
+.news div {
+    padding-top:20px;
+}
+.news span {
+    color: #c3c3c3;
+    font-size: 12px;
+    display: block;
+    margin-bottom: 10px;
+}
+.news a {
+    color: #292929;
+    font-size: 14px;
+}
+.news a:hover {
+    color: #18b7e2;
+}
+.catalog ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.catalog li {
+    margin-top: 25px;
+    flex-basis: 27em;
+}
+.catalog span {
+    color: #959595;
+    font-size: 14px;
+}
+.catalog a {
+    text-decoration: none;
+    color: #292929;
+    margin-left: 20px;
+}
+.catalog a:hover {
+    color: #18b7e2;
+    text-decoration: underline;    
 }
