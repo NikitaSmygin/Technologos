@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Технологос</title>
+    <link rel="stylesheet" href="css/style-dist.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="top-menu">
+                <address class="contacts">
+                    <p>г.Кострома, пл.Советская 2А,
+                        <br>КГУ, корп.&#171;А&#187;</p>
+                    <span>Email:</span>
+                    <a href="mailto:technologos@bk.ru">technologos@bk.ru</a>
+                </address>
+                <div class="logo">
+                    <a class="max-logo" href="index.html">
+                        <img src="images/logo.png" width="88" height="84" alt="logo">
+                    </a>
+                    <a class="mini-logo" href="index.html">
+                        <img src="images/logo.png" width="56" alt="logo">
+                    </a>
+                    <h1>
+                        <span>Малое инновационное предприятие</span>
+                        <br>&#171;Технологос&#187;</h1>
+                </div>
+                <form>
+                    <input class="search" id="search" type="search" placeholder="Поиск по сайту">
+                    <button type="submit"></button>
+                </form>
+            </div>
+            <div class="about">
+                <p>Инструментальное и конструкторско-технологическое обеспечение машиностроительного производства.</p>
+            </div>
+        </div>
+        <nav class="navigation">
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="index.html">О предприятии</a>
+                    </li>
+                    <li>
+                        <a href="sphere.html">Сферы деятельности</a>
+                    </li>
+                    <li>
+                        <a href="catalog.html">Каталог продукции</a>
+                    </li>
+                    <li>
+                        <a>Новые разработки</a>
+                    </li>
+                    <li>
+                        <a>Контакты</a>
+                    </li>
+                    <li>
+                        <a class="active" href="form.html">Оформить заказ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Оформить заказ</h2>
+            <p>Заполните форму ниже, и наш оператор свяжется с Вами!</p>
+            <form class="mail" id="form">
+                <div>
+                    <label>Ваше имя</label>
+                    <label>Телефон</label>
+                    <label>Email</label>
+                    <label>Текст заказа</label>
+                </div>
+                <input type="text" name="name" placeholder="Ваше имя" required /><br />
+                <input type="text" name="phone" placeholder="Ваш телефон" required /><br />
+                <input type="text" name="email" placeholder="Ваш email" required /><br />
+                <textarea name="text"></textarea><br />
+                <button>Отправить</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>Малое инновационное предприятие &#171;Технологос&#187;, 2013
+                <br>Все права защищены.</p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="common.js"></script>
+</body>
+
+</html>
